@@ -1,1 +1,6 @@
 Fauzarian Shop
+
+.env
+APP_KEY=base64:xxxx
+APP_ENV=production
+APP_DEBUG=false

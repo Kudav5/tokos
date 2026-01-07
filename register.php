@@ -29,7 +29,7 @@
 
             if ($insertUserQuery) {
                 ?>
-                <div class="alert alert-success" role="alert" style="color: whitesmoke;">
+                <div class="alert alert-success" role="alert" style="color: black;">
                     Registration successful! You can now <a href="login.php">login</a>.
                 </div>
                 <?php
@@ -52,15 +52,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel='stylesheet' href="../bootstrap/bootstrap-5/css/bootstrap.min.css">
+
 </head>
+
 <style>
-        .main {
+    .main {
         height: 100vh;
     }
 
-    .register-box {
+    .login-box {
         width: 500px;
-        height: 300px;
         border: solid 1px;
         box-sizing: border-box;
         border-radius: 10px;
@@ -69,7 +70,7 @@
     .lugin {
         background-color: aquamarine;
     }
-    .register-page {
+    .login-page {
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
@@ -84,12 +85,13 @@
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-.form input{
+.form input {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
   width: 100%;
   border: 0;
+
   margin: 0 0 15px;
   padding: 15px;
   box-sizing: border-box;
@@ -109,7 +111,7 @@
   transition: all 0.3 ease;
   cursor: pointer;
 }
-.register-box form button:hover,.form button:active,.form button:focus {
+.form button:hover,.form button:active,.form button:focus {
   background: rgb(221, 133, 26);
 }
 .container {
@@ -132,36 +134,36 @@
   color: rgb(221, 133, 26);
   text-decoration: none;
 }
-@import url(css/loginnew.css);
 
+
+    @import url(css/logtif.css);
 </style>
 
-<body style="background-color: black;">
-    <div class="main d-flex justify-content-center align-items-center register-page">
-        <center>
-            
-        
-        <div class="register-box shadow  lugin">
-            <h2 class="text-center mb-4">Register</h2>
-            <form action="" method="post"class="login-form">
-                <div class="mb-3">
-                    <label for="username">Username</label>
-                    <input type="text" class="form-control" name="username" id="username" required autocomplete="off">
-                </div>
-                <div class="mb-3">
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control" name="password" id="password" required>
-                </div>
-                <div class="mb-3">
-                    <label for="confirm_password">Confirm Password</label>
-                    <input type="password" class="form-control" name="confirm_password" id="confirm_password" required>
-                </div>
-                <div class="mb-3">
-                    <button class="register-link btn btn-success form-control" type="submit" name="registerbtn">Register</button>
-                </div>
-            </form>
-        </div>
-        </center>
+<body style="background-color: bisque;">
+    <div class="main d-flex justify-content-start align-items-center login-page">
+            <div class="login-box p-5 shadow form lugin">
+                <h2>Register</h2>
+                <form action="" method="post" class="login-form">
+                    <div>
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" name="username" id="username" autocomplete="off">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" name="password" id="password">
+                    </div>
+                    <div>
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" class="form-control" name="confirm_password" id="confirm_password" required>
+                    </div>
+                    <div>
+                        <button class="btn btn-success form-control mt-3" type="submit" name="registerbtn">Register</button>
+                    </div> 
+                    <div class="register-link">
+                        <p>Have an account? <a href="login.php">Login</a></p>
+                    </div>
+                </form>
+            </div>
     </div>
 </body>
 </html>

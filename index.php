@@ -10,6 +10,7 @@
     require "koneksi.php";
     
     $queryProduk = mysqli_query($conn,"SELECT *FROM produk  LIMIT 6");
+    $queryUsers = mysqli_query($conn,"SELECT *FROM users2 WHERE roles=0");
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +18,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Shop | Home</title>
+    <title>Fauzarian Shop</title>
     <link rel="stylesheet" href="fontawesome/fontawesome-5/css/fontawesome.min.css">
     <link rel="stylesheet" href="bootstrap/bootstrap-5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">

@@ -6,15 +6,15 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDem02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="../adminpanel">Home</a>
+                    <a class="nav-link" href="../adminpanel">Home</a></li>
                 <li class="nav-item">
-                    <a class="nav-link" href="kategori.php">Kategori</a>
+                    <a class="nav-link" href="kategori.php">Kategori</a></li>
                 <li class="nav-item">
-                    <a class="nav-link" href="produk.php">Produk</a>
+                    <a class="nav-link" href="produk.php">Produk</a></li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pembeli.php">Pembeli</a>
+                    <a class="nav-link" href="pembeli.php">Pembeli</a></li>
                 <li class="nav-item">
-                    <a class="nav-link" href="logout.php">Logout</a>
+                    <a class="nav-link" href="../index.php">Kembali</a></li>
             </ul>
         </div>
     </div>

@@ -39,7 +39,7 @@
           <div class="carousel-item active">
             <div class="box">
               <p>
-                We are a team that sells various foods and drinks to our customers.
+                Website ini menjual berbagai makanan dan minuman kepada pelanggan kami
               </p>
           </div>
           </div>

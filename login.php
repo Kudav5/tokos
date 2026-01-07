@@ -21,7 +21,6 @@ require "koneksi.php"; // Assuming this file contains your database connection c
 
     .login-box {
         width: 500px;
-        height: 300px;
         border: solid 1px;
         box-sizing: border-box;
         border-radius: 10px;
