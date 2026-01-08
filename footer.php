@@ -39,7 +39,7 @@
 
 <div class="container-fluid py-3 bg-dark text-light">
   <div class="container d-flex justify-content-between">
-    <label>&copy; 2024 Fauzarian Shop</label>
+    <label>&copy; 2026 Fauzarian Shop</label>
     <label></label>
   </div>
 </div>

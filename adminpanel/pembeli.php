@@ -101,7 +101,6 @@ $jumlahPembeli = mysqli_num_rows($queryPembeli);
                                     <th>No.</th>
                                     <th>Nama</th>
                                     <th>Alamat</th>
-                                    <th>No. HP</th>
                                     <th>Produk yang Dibeli</th>
                                 </tr>
                             </thead>
@@ -114,7 +113,6 @@ $jumlahPembeli = mysqli_num_rows($queryPembeli);
                                         <td><?php echo $nomor; ?></td>
                                         <td><?php echo $dataPembeli['nama']; ?> </td>
                                         <td><?php echo $dataPembeli['alamat']; ?></td>
-                                        <td><?php echo $dataPembeli['nohp']; ?></td>
                                         <td><?php echo $dataPembeli['produk']; ?></td>
 
                                         
